@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="src/output.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <!-- start-navbar -->
+    <div class="main">
+        <div class="w-full lg:bg-white  bg-black" id="navbar">
+            <div class="max-w-[1500px] h-[76px] mx-auto flex justify-between items-center px-2">
+                <div class="logo"> 
+                    <a class="lg:text-black text-white font-extrabold text-[30px] outline-0 line" id="navlogo" href="index.html">ARCHOUSE</a>
+                </div>
+                <div class="text-[30px] text-gray-500 lg:hidden cursor-pointer" id="menu-toggle">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+                <div class="navlist hidden lg:flex">
+                    <ul class="flex justify-center items-center">
+                        <li><a class="py-[24px] px-[20px] inline-block text-[21px]" href="#">Home</a></li>
+                        <li><a class="py-[24px] px-[20px] inline-block text-[21px]" href="pages/About.html">About Us</a></li>
+                        <li><a class="py-[24px] px-[20px] inline-block text-[21px]" href="pages/Services.html">Services</a></li>
+                        <li><a class="py-[24px] px-[20px] inline-block text-[21px]" href="pages/Project.html">Project</a></li>
+                        <li><a class="py-[24px] px-[20px] inline-block text-[21px]" href="pages/ContactUs.html">Contact Us</a></li>
+                    </ul>
+                </div>
+            </div>
+            <!-- Mobile Menu -->
+            <div class="mobile-menu hidden bg-black lg:hidden" id="mobile-menu">
+                <ul class="flex flex-col items-center text-white">
+                    <li><a class="py-4 px-6 block text-[18px] w-full text-center hover:bg-gray-800" href="#">Home</a></li>
+                    <li><a class="py-4 px-6 block text-[18px] w-full text-center hover:bg-gray-800" href="pages/About.html">About Us</a></li>
+                    <li><a class="py-4 px-6 block text-[18px] w-full text-center hover:bg-gray-800" href="pages/Services.html">Services</a></li>
+                    <li><a class="py-4 px-6 block text-[18px] w-full text-center hover:bg-gray-800" href="pages/Project.html">Project</a></li>
+                    <li><a class="py-4 px-6 block text-[18px] w-full text-center hover:bg-gray-800" href="pages/ContactUs.html">Contact Us</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- end-navbar -->
+    <!-- start-image-banner -->
+    <div class="main_image_slider" id="image-banner" >
+        <div class="openimage-slider1 max-w-[1500px] px-2 mx-auto" id="Image1">
+            <div class="relative h-[850px] px-[10px]">
+                <div class="image lg:w-[70%]  absolute top-0 right-0">
+                    <img class="w-[100%] h-[880px]" src="https://media.istockphoto.com/id/1496542119/photo/modern-kitchen-interior-with-beige-cabinets-wood-dining-table-chairs-and-cactus-plant.webp?a=1&b=1&s=612x612&w=0&k=20&c=58w0U8YlBMFl3l_xHwh224cFCbf9LwP1PlrFjjiLFtc=" alt="">
+                </div>
+                <div class="contentimagehide lg:w-[615px] lg:bg-transparent bg-white/50 w-[100%] py-5" id="imagecontent">
+                    <h1 class="font-extrabold lg:text-[60px] text-[35px] lg:text-start text-center lg:text-black text-blue-800 mb-4">
+                        We Love <br> Modern Designs
+                    </h1>
+                    <p class="lg:text-[24px] text-[20px] mb-8 lg:text-gray-600 lg:text-start text-center text-blue-800">
+                        A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.
+                    </p>
+                    <div class="button lg:justify-start flex justify-center items-center">
+                        <a class="px-7 py-4 font-bold inline-block bg-blue-900 text-white border-1 hover:bg-white hover:text-blue-800 rounded-full" href="./pages/Project.html">View our works</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="closeimage-slider2  max-w-[1500px] px-2 mx-auto" id="Image2">
+            <div class="relative h-[850px] px-[10px]">
+                <div class="image lg:w-[70%] absolute top-0 right-0">
+                    <img class="w-[100%] h-[880px]" src="image/bg_2.jpg.webp" alt="">
+                </div>
+                <div class="contentimage lg:w-[615px] lg:bg-transparent bg-white/50 w-[100%]   absolute lg:left-0 left-0 lg:top-[25%] top-[30%]">
+                    <h1 class="font-extrabold lg:text-[60px] text-[35px] lg:text-start text-center lg:text-black text-blue-800 mb-4">
+                        We Create Amazing Architecture Designs
+                    </h1>
+                    <p class="lg:text-[24px] text-[20px] mb-8 lg:text-gray-600 lg:text-start text-center text-blue-800">
+                        A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.
+                    </p>
+                    <div class="button lg:justify-start flex justify-center items-center">
+                        <a class="px-7 py-4 font-bold inline-block bg-blue-900 text-white border-1 hover:bg-white hover:text-blue-800 rounded-full" href="./pages/Project.html">View our works</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end-image-banner -->
+    <!-- About-section-start -->
+    <div class="about  overflow-hidden lg:py-20 py-10 bg-gray-300 " id="main_image_slider">
+        <div class="max-w-[1500px] px-2 mx-auto flex lg:flex-row flex-col">
+            <div class="image lg:w-[35%] max-w-[100%]  ">
+                <img class="w-[100%] lg:h-[750px] " src="image/bg_1.jpg.webp" alt="">
+            </div>
+            <div class=" lg:w-[65%] relative max-w-[100%]" >
+                <div class="Second_Slider lg:px-0  max-w-[100%]" id="SecondSlider">
+                    <div class="lg:ml-13 mb-8 lg:px-18 px-0">
+                        <p class="mb-1 text-[16px]">ABOUT</p>
+                        <p class="text-[36px] font-bold">We are the best Interior, Exterior & Architecture Drawing</p>
+                    </div> 
+                    <div class="lg:ml-20 ml-0 lg:pr-26 pr-0 lg:pb-18   ">   
+                        <p class="text-[18px] mb-3">On her way she met a copy. The copy warned the Little Blind Text, that where it came from it would have been rewritten a thousand times and everything that was left from its origin would be the word "and" and the Little Blind Text should turn around and return to its own, safe country. But nothing the copy said could convince her and so it didn’t take long until a few insidious Copy Writers ambushed her, made her drunk with Longe and Parole and dragged her into their agency, where they abused her for their.</p>
+                        <p class="text-[18px]">When she reached the first hills of the Italic Mountains, she had a last view back on the skyline of her hometown Bookmarksgrove, the headline of Alphabet Village and the subline of her own road, the Line Lane. Pityful a rethoric question ran over her cheek, then she continued her way.</p>
+                        <p class="px-4 mt-8 py-3 font-bold inline-block bg-blue-900 text-white border-1 border-gray-300 hover:border-blue-900  hover:bg-white hover:text-blue-800 rounded-[10px]"><a href="./pages/Project.html">View our works</a></p>
+                    </div>
+                </div> 
+            </div>
+        </div>
+    </div>
+     <!-- About-section-end -->
+     <!-- Services-section-start -->
+     <div class="services overflow-hidden" id="service">
+        <div class="max-w-[1500px] px-2 mx-auto py-20 ">
+            
+            <h1 id="text" class="texthead lg:text-7xl text-6xl font-extrabold text-center text-black "> OUR SERVICES</h1>
+            <div class="card-text max-w-[1200px] px-2 mx-auto  flex justify-center items-center flex-wrap gap-10 mt-30">
+                <div class="card1 w-[357px] h-[500px] p-4 rounded-xl bg-gray-300" id="card1">
+                    <div class="relative overflow-hidden rounded-lg">
+                      <img src="./image/pngtree-3d-render-of-home-interior-mockup-against-white-wall-background-image_3764504.jpg" alt="Modern residential home exterior" class="w-full h-65 object-cover card-image">
+                      <div class="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent"></div>
+                    </div>
+                    <h3 class="text-[25px] font-semibold text-black mt-4 mx-2">Interior Design</h3>
+                    <p class="text-[18px] text-black mx-2 mt-2 mb-4">Creating homes that blend comfort, style, and functionality tailored to your lifestyle.</p>
+                    <a href="#" class="card-link text-teal-400 font-bold text-[18px] mx-2 mb-4 inline-block hover:text-teal-300 hover:underline">Learn More</a>
+                  </div>
+                  <div class="card2 w-[357px] h-[500px] p-4 rounded-xl bg-gray-300" id="card2">
+                    <div class="relative overflow-hidden rounded-lg">
+                      <img src="./image/pngtree-modern-house-exterior-in-the-evening-with-warm-interior-lighting-glowing-image_16901593.jpg" alt="Modern residential home exterior" class="w-full h-65 object-cover card-image">
+                      <div class="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent"></div>
+                    </div>
+                    <h3 class="text-[25px] font-semibold text-black mt-4 mx-2">Exterior Design</h3>
+                    <p class="text-[18px] text-black mx-2 mt-2 mb-4">Creating homes that blend comfort, style, and functionality tailored to your lifestyle.</p>
+                    <a href="#" class="card-link text-teal-400 font-bold text-[18px] mx-2 mb-4 inline-block hover:text-teal-300 hover:underline">Learn More</a>
+                  </div>
+                  <div class="card3 w-[357px]  h-[500px] p-4 rounded-xl bg-gray-300" id="card3">
+                    <div class="relative overflow-hidden rounded-lg">
+                      <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=2070&auto=format&fit=crop" alt="Modern residential home exterior" class="w-full h-65 object-cover card-image">
+                      <div class="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent"></div>
+                    </div>
+                    <h3 class="text-[25px] font-semibold text-black mt-4 mx-2">Architecture Drawing</h3>
+                    <p class="text-[18px] text-black mx-2 mt-2 mb-4">Creating homes that blend comfort, style, and functionality tailored to your lifestyle.</p>
+                    <a href="#" class="card-link text-teal-400 font-bold text-[18px] mx-2 mb-4 inline-block hover:text-teal-300 hover:underline">Learn More</a>
+                  </div>
+            </div>
+        </div>
+    </div>
+     <!-- Services-section-end -->
+     <!-- project-section-start -->
+      <div class="project  lg:h-[1400px] md:h-[1450px] h-[2000px] overflow-hidden relative flex justify-center items-center  bg-gray-400 " id="project">
+        <div class="backgroundcolorhide  bg-gray-300  py-30" id="backgroundcolor">
+            <h2 class=" h2 lg:text-7xl text-6xl font-extrabold text-gray-800 mb-10 text-center underline " id="h2">OUR PROJECT</h2>
+            <div class="max-w-[1200px] px-2 mx-auto flex justify-center items-center flex-wrap gap-10 mt-30">
+                    <!-- Project Card 1 -->
+                    <div class="card11 w-[357px] h-[500px] p-4 rounded-xl bg-white shadow-lg " id="card11">
+                        <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80" alt="Modern Villa" class="w-full h-[250px]  object-cover">
+                        <div class="p-5">
+                            <h3 class="text-[25px]  font-semibold text-gray-800">Modern Villa</h3>
+                            <p class="text-gray-600 mt-2 text-[18px] ">A luxurious villa with open spaces and sustainable design, blending nature and architecture.</p>
+                            <a href="#" class="card-link text-teal-400 font-bold text-[18px] mt-4 inline-block hover:text-teal-300 hover:underline">Learn More</a>
+                        </div>
+                    </div>
+                    <!-- Project Card 2 -->
+                    <div class="card22 w-[357px] h-[500px] p-4 rounded-xl bg-white shadow-lg " id="card22">
+                        <img src="https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80" alt="Coastal Retreat" class="w-full h-[250px] object-cover">
+                        <div class="p-5">
+                            <h3 class="text-[25px] font-semibold text-gray-800">Coastal Retreat</h3>
+                            <p class="text-gray-600 mt-2 text-[18px]">A serene beachside retreat with panoramic views and eco-friendly materials.</p>
+                            <a href="#" class="card-link text-teal-400 font-bold text-[18px] mt-4 inline-block hover:text-teal-300 hover:underline">Learn More</a>
+                        </div>
+                    </div>
+                    <!-- Project Card 3 -->
+                    <div class="card33 w-[357px] h-[500px] p-4 rounded-xl bg-white shadow-lg" id="card33">
+                        <img src="https://images.unsplash.com/photo-1580587771525-78b9dba3b914?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80" alt="Skyline Tower" class="w-full h-[250px] object-cover">
+                        <div class="p-5">
+                            <h3 class="text-[25px] font-semibold text-gray-800">Skyline Tower</h3>
+                            <p class="text-gray-600 mt-2 text-[18px]">A modern high-rise with innovative structural design and panoramic city views.</p>
+                            <a href="#" class="card-link text-teal-400 font-bold text-[18px]  mt-4 inline-block hover:text-teal-300 hover:underline">Learn More</a>
+                        </div>
+                    </div>
+            
+        </div>
+      </div>
+      </div>
+      <!-- project-section-end -->
+       <!-- team-section-start -->
+        <div class="team">
+            <div class="max-w-[1200px] px-2 mx-auto flex justify-center items-center flex-wrap gap-6 my-20">
+                <h2 class=" text-6xl font-extrabold text-gray-800 mb-10 text-center underline">TEAM MEMBER</h2>
+                <!-- Team Grid -->
+                <div class="flex justify-around items-center flex-wrap gap-6">
+                    <!-- Team Member Card 1 -->
+                    <div class="team-card relative w-[357px] h-[500px] p-4 rounded-xl overflow-hidden shadow-lg bg-gray-300">
+                        <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80" alt="John Doe" class="w-full h-full object-cover">
+                        <div class="team-card-content absolute p-4 sm:p-5 text-center bg-white">
+                            <h3 class="text-lg sm:text-xl lg:text-2xl font-semibold text-gray-800">John Doe</h3>
+                            <p class="text-gray-600 font-medium mt-1 text-xs sm:text-sm lg:text-base">Lead Architect</p>
+                            <p class="text-gray-600 mt-2 text-xs sm:text-sm lg:text-base">With over 15 years of experience, John designs innovative and sustainable structures.</p>
+                        </div>
+                    </div>
+                    <!-- card 2 -->
+                    <div class="team-card relative w-[357px] h-[500px] p-4 rounded-xl overflow-hidden shadow-lg  bg-gray-300">
+                        <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80" alt="Jane Smith" class="w-full h-full object-cover">
+                        <div class="team-card-content absolute p-4 sm:p-5 text-center bg-white">
+                            <h3 class="text-lg sm:text-xl lg:text-2xl font-semibold text-gray-800">Jane Smith</h3>
+                            <p class="text-gray-600 font-medium mt-1 text-xs sm:text-sm lg:text-base">Interior Designer</p>
+                            <p class="text-gray-600 mt-2 text-xs sm:text-sm lg:text-base">With over 15 years of experience, John designs innovative and sustainable structures</p>
+                        </div>
+                    </div>
+                    <!-- card 3 -->
+                    <div class="team-card relative w-[357px] h-[500px] p-4 rounded-xl overflow-hidden shadow-lg  bg-gray-300">
+                        <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80" alt="Emily Davis" class="w-full h-full object-cover">
+                        <div class="team-card-content absolute p-4 sm:p-5 text-center bg-white">
+                            <h3 class="text-lg sm:text-xl lg:text-2xl font-semibold text-gray-800">Emily Davis</h3>
+                            <p class="text-gray-600 font-medium mt-1 text-xs sm:text-sm lg:text-base">Landscape Architect</p>
+                            <p class="text-gray-600 mt-2 text-xs sm:text-sm lg:text-base">With over 15 years of experience, John designs innovative and sustainable structures</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+       <!-- team-section-end -->
+       <!-- footer-section-start -->
+        <footer class="bg-gray-800 text-white ">
+        <div class="max-w-[1200px] px-2 mx-auto py-20">
+            <div class="flex justify-between flex-wrap gap-10">
+                <!-- About Section -->
+                <div class="max-w-[370px]">
+                    <h3 class="text-xl font-bold mb-4">ARCHOUSE</h3>
+                    <p class="text-gray-400 ">
+                        Creating innovative and sustainable designs for modern living spaces. 
+                        Let us bring your vision to life.
+                    </p>
+                    
+                </div>
+
+                <!-- service link -->
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Services Links</h3>
+                    <ul class="space-y-2">
+                        <li><a href="#home" class="footer-link text-gray-400">Interior Design</a></li>
+                        <li><a href="#projects" class="footer-link text-gray-400">Exterior Design</a></li>
+                        <li><a href="#services" class="footer-link text-gray-400">Architecture Drawing</a></li>
+                        
+                    </ul>
+                </div>
+
+                <!-- Quick Links -->
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Quick Links</h3>
+                    <ul class="space-y-2">
+                        <li><a href="#home" class="footer-link text-gray-400">Home</a></li>
+                        <li><a href="#projects" class="footer-link text-gray-400">Projects</a></li>
+                        <li><a href="#services" class="footer-link text-gray-400">Services</a></li>
+                        <li><a href="#about" class="footer-link text-gray-400">About</a></li>
+                        <li><a href="#contact" class="footer-link text-gray-400">Contact</a></li>
+                    </ul>
+                </div>
+
+                <!-- Contact Info -->
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Contact Us</h3>
+                    <p class="text-gray-400">123 Design Street, City, Country</p>
+                    <p class="text-gray-400">Email: info@architecturestudio.com</p>
+                    <p class="text-gray-400">Phone: +123 456 7890</p>
+
+                    <div class="media_icon mt-1">
+                        <a href="https://wa.me/1234567890" target="_blank" title="Contact via WhatsApp" class="text-3xl m-1 text-green-700">
+                            <i class="fab fa-whatsapp"></i>
+                        </a>
+                        <a href="mailto:example@example.com" title="Contact via Email" class="text-3xl m-1 text-white">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                        <a href="tel:+1234567890" title="Contact via Phone" class="text-3xl m-1 text-red-600">
+                            <i class="fas fa-phone"></i>
+                        </a>
+                    </div>
+                </div>
+                
+            </div>
+
+            <!-- Bottom Bar -->
+            <div class="border-t border-gray-700 mt-8 pt-4 text-center text-gray-400">
+                <p>&copy; 2025 Architecture Studio. All rights reserved.</p>
+            </div>
+        </div>
+        </footer>
+    <!-- footer-section-end -->
+    <script src="app.js"></script>
+</body>
+</html>
+  
