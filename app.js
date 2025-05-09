@@ -174,16 +174,13 @@ document.addEventListener('DOMContentLoaded', function() {
     const menuToggle = document.getElementById('menu-toggle');
     const mobileMenu = document.getElementById('mobile-menu');
 
-    
     function toggleMobileMenu() {
         mobileMenu.classList.toggle('active');
-        let href = link.getAttribute('href');
-        
+        let href = link.getAttribute('href'); 
     }
 
-    
     menuToggle.addEventListener('click', toggleMobileMenu);
-
+    
     const mobileMenuLinks = mobileMenu.querySelectorAll('a');
     mobileMenuLinks.forEach(link => {
         link.addEventListener('click', () => {
@@ -191,3 +188,5 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
 });
+
+
