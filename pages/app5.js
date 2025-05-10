@@ -34,3 +34,13 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
 });
+
+const navbar = document.querySelector('#navbar');
+const navlogo = document.querySelector('#navlogo')
+
+window.addEventListener('scroll', () => {
+    navlogo.classList[window.scrollY >= 100 ? 'add' : 'remove']('navlogo');
+    navbar.classList[window.scrollY >= 140 ? 'add' : 'remove']('navbar');
+    navbar.classList[window.scrollY >= 180 ? 'add' : 'remove']('show');
+    
+});

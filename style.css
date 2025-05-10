@@ -73,21 +73,20 @@
 }
 
 .card1show:hover{
-    scale: 1.06;
-    transition: all 0.3s ease-out;
+    scale: 1.03;
+    transition: all 0.2s ease-out;
 }
 .card2show:hover{
-    scale: 1.06;
-    transition: all 0.3s ease-out;
+    scale: 1.03;
+    transition: all 0.2s ease-out;
 }
 .card3show:hover{
-    scale: 1.06;
-    transition: all 0.3s ease-out;
+    scale: 1.03;
+    transition: all 0.2s ease-out;
 }
 .texthead{
     position: relative;
     top: -300px;
-    
     transition: all 0.6s ease-out;
 }
 .textheadshow{
